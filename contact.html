@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akshay's/contact</title>
+    <style>
+        body{
+            margin:0;
+            padding: 0;
+        }
+        .nav
+        {
+            align-items: center;
+            justify-content: center;
+            display: flex; 
+            background-image: url("food_2.jpeg");
+            background-size: 100%;
+            background-repeat: no-repeat;
+            
+            
+        }
+        input{
+            margin: 22px;
+            padding: 10px;
+            border-radius: 15px;
+        }
+        .item
+        {
+            align-items: center;
+            justify-content: center;
+            display: flex;
+        }
+        .item-1:hover
+        {
+            background-color: rgb(134, 105, 238);
+            border-radius: 30px;
+        }
+        a
+        {
+            padding: 20px;
+            text-decoration: none;
+            font-size: 20px;
+            color: rgb(243, 239, 239);
+        }
+        li
+        {
+            list-style: none;
+        }
+        .login
+        {
+             margin-right: 0px;
+             
+            border-radius: 10px;
+        }
+        .reg
+        {
+            color: black;
+        }
+        .logo
+        {
+            width: 70px;
+            height: 70px;
+            border-radius: 35px;
+            
+        }
+        .photo
+        {
+            justify-content: center;
+            align-items: center;
+            width: 250px;
+            height: 300px;
+            border-radius: 125px;
+            display: flex;
+            margin-top: 30px;
+        }
+        .pf1
+        {
+            color: rgb(155, 107, 231);
+            padding: 0px;
+        }
+       .pf1,.pf2
+       {
+        
+        margin: 20px;
+       }
+       .pf
+       {
+        color: black;
+      
+        justify-content: center;
+       }
+       #linkdin,#insta,#email
+       {
+        width: 40px;
+        height: 40px;
+       }
+       
+       #mail
+       {
+        margin: 10px;
+       }
+       .pf:hover
+       {
+        color: blue;
+
+       }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <div >
+            <img src="food_1.jpeg" alt="" srcset="" class="logo">
+        </div>
+        <div class="navlist">
+            <ul class="item">
+                <li class="item-1"><a href="./web.html" target="_self">Home</a></li>
+                <li class="item-1"><a href="./about.html" target="_self">About Us</a></li>
+                <li class="item-1"><a href="./contact.html" target="_self">Contact Us</a></li>
+                <li class="item-1"><a href="./service.html" target="_self">Services</a></li>
+            </ul>
+        </div>
+        <div class="search">
+            <input type="search" name="serach" id="search" placeholder="Search Here">
+        </div>
+
+        <div class="log">
+            <button class="login"><a href="./log_in.html" target="_blank" class="reg">Login/Register</a></button>
+        </div>
+    </div>
+
+    <div>
+    <center >
+        <img src="akshay_1.jpg" alt="" class="photo">
+    </center>
+    <div class="cont">
+        <li class="pf1">
+            <center>
+                <img src="linkdin.png" alt="" class="pf_img" id="linkdin">
+                <a href="https://www.linkedin.com/in/akshay-kale-8a597b20b" class="pf">Linkedin</a>
+            </center>
+        </li>
+        <li class="pf2">
+            <center>
+                <img src="insta.jpeg" alt="" lass="pf_img" id="insta">
+                <a href="https://instagram.com/hey_its_akshayk?igshid=ZDdkNTZiNTM=" class="pf">Instagram</a>
+            </center>
+            
+        </li>
+        <li class="pf3">
+            <center>
+                <img src="email.png" alt="" class="pf_img" id="email">
+                <a href="mailto: akshay.kale@walchandsangli.ac.in" id="mail" class="pf">Email</a>
+            </center>
+        </li>
+    </div>
+</div>
+</body>
+</html>

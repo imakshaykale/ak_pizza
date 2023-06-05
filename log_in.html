@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login/register</title>
+    <style>
+        body{
+            margin:0;
+            padding: 0;
+        }
+        .for
+        {
+          display: flex;
+          text-align: center;
+          flex-direction: column;
+          margin: auto;
+          width: 300px;
+          padding-top: 10px;
+        }
+        input,button
+        {
+            margin: 3px;
+            padding: 10px;
+            border-radius: 20px;
+        }
+        ::placeholder
+        {
+            text-align: center;
+        }
+        img
+        {
+            width: 100%;
+        }
+        form{
+            border: 2px solid rgb(30, 7, 233);
+            padding: 30px;
+        }
+       
+    </style>
+</head>
+<body>
+    <img src="logo.png" alt="logo">
+    <form action="./web.html" method="get" class="for">
+        <input type="email" name="email" id="email" placeholder="Enter Email Here">
+        <input type="password" name="pass" id="pass" placeholder="Enter Password Here">
+        <button type="submit" class="sub"><strong>Login</strong></button>
+        <button type="reset" class="res"><strong>Reset</strong></button>
+        <footer>if you don't have account create new one?.<a href="./reg.html" target="_self">Create Account</a></footer>
+    </form>
+</body>
+</html>

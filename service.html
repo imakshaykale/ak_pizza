@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akshay's</title>
+    <style>
+        body{
+            margin:0;
+            padding: 0;
+        }
+        .nav
+        {
+            align-items: center;
+            justify-content: center;
+            display: flex; 
+            background-image: url("food_2.jpeg");
+            background-size: 100%;
+            background-repeat: no-repeat;
+            
+            
+        }
+        input{
+            margin: 22px;
+            padding: 10px;
+            border-radius: 15px;
+        }
+        .item
+        {
+            align-items: center;
+            justify-content: center;
+            display: flex;
+        }
+        .item-1:hover
+        {
+            background-color: rgb(134, 105, 238);
+            border-radius: 30px;
+        }
+        a
+        {
+            padding: 20px;
+            text-decoration: none;
+            font-size: 20px;
+            color: rgb(243, 239, 239);
+        }
+        li
+        {
+            list-style: none;
+        }
+        .login
+        {
+             margin-right: 0px;
+             
+            border-radius: 10px;
+        }
+        .reg
+        {
+            color: black;
+        }
+        img
+        {
+            width: 70px;
+            height: 70px;
+            border-radius: 35px;
+            
+        }
+        .container
+        {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .ser
+        {
+            background-color: rgb(100, 100, 230);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+        }
+        .head
+        {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: brown;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <div class="img">
+            <img src="food_1.jpeg" alt="" srcset="">
+        </div>
+        <div class="navlist">
+            <ul class="item">
+                <li class="item-1"><a href="./web.html" target="_self">Home</a></li>
+                <li class="item-1"><a href="./about.html" target="_self">About Us</a></li>
+                <li class="item-1"><a href="./contact.html" target="_self">Contact Us</a></li>
+                <li class="item-1"><a href="./service.html" target="_self">Services</a></li>
+            </ul>
+        </div>
+        <div class="search">
+            <input type="search" name="serach" id="search" placeholder="Search Here">
+        </div>
+
+        <div class="log">
+            <button class="login"><a href="./log_in.html" target="_blank" class="reg">Login/Register</a></button>
+        </div>
+    </div>
+
+    <div class="container">
+        <ul class="box-1">
+            <center>
+            <li class="box"><h3 class="head">About Sevice Charge</h3>
+                <li class="ser">if you buy pizza whose price greater than 1000 Rs you have to pay Nothing</li>
+                <li class="ser">if you buy pizza whose price is between 500-1000 Rs you have to pay 50% of service charge which is @100Rs</li>
+                <li class="ser">if you buy pizza whose price is between 0-500 Rs you have to pay 100% of service charge which is @200Rs</li>
+            </li>
+        </center>
+        </ul>
+    </div>
+</body>
+</html>
